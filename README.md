@@ -60,47 +60,47 @@ AI-powered-smart-supermarket/
 ```bash
 git clone https://github.com/yourusername/smart_supermarket_project.git
 cd smart_supermarket_project
-2️⃣ Create a Virtual Environment and Activate It
-bash
-Copy code
+```
+
+### 2️⃣ Create a Virtual Environment and Activate It
+```bash
 python -m venv venv
+```
+```bash
 On macOS/Linux:
-
-bash
-Copy code
 source venv/bin/activate
+```
+```bash
 On Windows:
-
-bash
-Copy code
 venv\Scripts\activate
-3️⃣ Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-4️⃣ Configure Environment Variables
-Create a .env file in the project root and add:
+```
 
-ini
-Copy code
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Configure Environment Variables
+
+Create a .env file in the project root and add:
+```bash
 FIREBASE_CREDENTIALS=path/to/firebase/credentials.json
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=your_twilio_whatsapp_number
 GROQ_API_KEY=your_groq_api_key
-5️⃣ Run the System
+```
+### 5️⃣ Run the System
 Register a new customer:
-
-bash
-Copy code
+```bash
 python face_recognition_module/registration_gui.py
+```
 Start face recognition system:
-
-bash
-Copy code
+```bash
 python face_recognition_module/recognition.py
-Run the dashboard:
+```
 
-bash
-Copy code
+Run the dashboard:
+```bash
 python admin_dashboard/app.py
+```
