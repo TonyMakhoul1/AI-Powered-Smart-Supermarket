@@ -52,66 +52,56 @@ AI-powered-smart-supermarket/
 │   ├── registration_gui.py     # Tkinter-based GUI for registration
 │   └── send_message.py         # WhatsApp messaging logic (general)
 
-Installation and Setup
-1. Clone the repository
+🔧 Installation & Setup
+
+Clone the repository:
+
 git clone https://github.com/yourusername/smart_supermarket_project.git
 cd smart_supermarket_project
 
-2. Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate      # On Windows
 
-3. Install dependencies
+Create and activate a virtual environment.
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-4. Configure environment variables
 
-Create a .env file in the project root directory and include the following:
+Set up Firebase credentials and place them in the project root.
 
-FIREBASE_CREDENTIALS=path/to/firebase/credentials.json
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
-TWILIO_PHONE_NUMBER=your_twilio_whatsapp_number
-GROQ_API_KEY=your_groq_api_key
+Add your Twilio SID/Auth Token and Groq API Key to .env.
 
-5. Run the system
+▶️ Usage
 
 Register a new customer:
 
 python registration_gui.py
 
 
-Start the recognition system:
+Run face recognition system:
 
 python recognition.py
 
 
-Launch the dashboard:
+Start dashboard:
 
 flask run
 
-Demonstration
+📸 Demo
 
-(Insert screenshots, GIFs, or video links showcasing customer registration, recognition, and dashboard functionality.)
+(Screenshots or GIFs of registration, recognition, and dashboard here)
 
-Future Work
+📌 Future Work
 
-Mobile application integration.
+Mobile app integration.
 
-Advanced product recommendation engine.
+Advanced recommendation engine.
 
-Multi-camera system support.
+Multi-camera support.
 
-Enhanced analytics and reporting features in the dashboard.
+Enhanced dashboard analytics.
 
-Author
+👨‍💻 Authors
 
-Tony Makhoul
-Computer Engineering Student, Lebanese International University
+Tony Makhoul – Computer Engineering Student, Lebanese International University
 
-📧 Email: tmakhoul2002@gmail.com
-
-🔗 LinkedIn: linkedin.com/in/tony-makhoul-05b6b7243
-
-🔗 GitHub: github.com/TonyMakhoul
