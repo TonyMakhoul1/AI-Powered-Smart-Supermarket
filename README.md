@@ -59,15 +59,16 @@ AI-powered-smart-supermarket/
 ### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/yourusername/smart_supermarket_project.git
+```
+```bash
 cd smart_supermarket_project
 ```
-
 ### 2️⃣ Create a Virtual Environment and Activate It
 ```bash
 python -m venv venv
 ```
-```bash
 On macOS/Linux:
+```bash
 source venv/bin/activate
 ```
 ```bash
@@ -104,3 +105,27 @@ Run the dashboard:
 ```bash
 python admin_dashboard/app.py
 ```
+
+### 📸 Demo
+
+[(Insert screenshots, GIFs, or videos here showing registration, recognition, and dashboard)](https://drive.google.com/file/d/1ZXPUcjU7tHaiBj09QMDqtfmsWFAxuggX/view?usp=drive_link)
+
+### 📌 Future Work
+
+Mobile app integration.
+
+Advanced recommendation engine.
+
+Multi-camera support.
+
+Enhanced analytics dashboard.
+
+### 👨‍💻 Author
+
+Tony Makhoul – Computer Engineering Student, Lebanese International University
+
+📧 tmakhoul2002@gmail.com
+
+🔗 LinkedIn
+
+🔗 GitHub
