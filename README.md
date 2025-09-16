@@ -128,6 +128,7 @@ Tony Makhoul – Computer Engineering Student, Lebanese International University
 
 📧 Contact: tmakhoul2002@gmail.com
 
-🔗 LinkedIn: linkedin.com/in/tony-makhoul-05b6b7243
+🔗 [LinkedIn](https://www.linkedin.com/in/tony-makhoul-05b6b7243)  
 
-🔗 GitHub: github.com/TonyMakhoul
+🔗 [GitHub](https://github.com/TonyMakhoul1)
+
