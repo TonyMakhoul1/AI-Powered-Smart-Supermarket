@@ -71,8 +71,8 @@ On macOS/Linux:
 ```bash
 source venv/bin/activate
 ```
-```bash
 On Windows:
+```bash
 venv\Scripts\activate
 ```
 
@@ -108,7 +108,7 @@ python admin_dashboard/app.py
 
 ### 📸 Demo
 
-[(Insert screenshots, GIFs, or videos here showing registration, recognition, and dashboard)](https://drive.google.com/file/d/1ZXPUcjU7tHaiBj09QMDqtfmsWFAxuggX/view?usp=drive_link)
+[Video Demo Link](https://drive.google.com/file/d/1ZXPUcjU7tHaiBj09QMDqtfmsWFAxuggX/view?usp=drive_link)
 
 ### 📌 Future Work
 
