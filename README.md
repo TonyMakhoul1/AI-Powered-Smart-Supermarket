@@ -121,11 +121,11 @@ python admin_dashboard/app.py
 
 - Enhanced analytics dashboard.
 ---
----
+
 ### 👨‍💻 Author
 
 Tony Makhoul – Computer Engineering Student, Lebanese International University
----
+
 📧 tmakhoul2002@gmail.com
 
 🔗 LinkedIn
