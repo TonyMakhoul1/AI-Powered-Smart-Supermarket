@@ -112,13 +112,13 @@ python admin_dashboard/app.py
 
 ### 📌 Future Work
 
-Mobile app integration.
+- Mobile app integration.
 
-Advanced recommendation engine.
+- Advanced recommendation engine.
 
-Multi-camera support.
+- Multi-camera support.
 
-Enhanced analytics dashboard.
+- Enhanced analytics dashboard.
 
 ### 👨‍💻 Author
 
