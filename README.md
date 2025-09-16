@@ -105,11 +105,12 @@ Run the dashboard:
 ```bash
 python admin_dashboard/app.py
 ```
-
+---
 ### 📸 Demo
 
 [Video Demo Link](https://drive.google.com/file/d/1ZXPUcjU7tHaiBj09QMDqtfmsWFAxuggX/view?usp=drive_link)
-
+---
+---
 ### 📌 Future Work
 
 - Mobile app integration.
@@ -119,13 +120,15 @@ python admin_dashboard/app.py
 - Multi-camera support.
 
 - Enhanced analytics dashboard.
-
+---
+---
 ### 👨‍💻 Author
 
 Tony Makhoul – Computer Engineering Student, Lebanese International University
-
+---
 📧 tmakhoul2002@gmail.com
 
 🔗 LinkedIn
 
 🔗 GitHub
+
