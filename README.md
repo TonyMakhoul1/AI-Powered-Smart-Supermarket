@@ -39,80 +39,88 @@ It identifies returning customers, registers new ones, and sends **personalized 
 ## 📂 Project Structure  
 
 AI-powered-smart-supermarket/
-│── admin_dashboard/
-│ ├── app.py 
-│ ├── send_message.py 
-│ └── templates/
-│ └── dashboard.html 
 │
-│── face_recognition_module/
-│ ├── recognition.py 
-│ ├── register.py 
-│ ├── registration_gui.py 
-│ └── send_message.py 
+├── admin_dashboard/
+│   ├── app.py                  # Flask app for the dashboard
+│   ├── send_message.py         # WhatsApp messaging logic (dashboard-specific)
+│   └── templates/
+│       └── dashboard.html      # HTML template for the dashboard
+│
+├── face_recognition_module/
+│   ├── recognition.py          # Real-time face recognition & engagement
+│   ├── register.py             # Register new customers & capture face images
+│   ├── registration_gui.py     # Tkinter-based GUI for registration
+│   └── send_message.py         # WhatsApp messaging logic (general)
 
-yaml
-Copy code
+🔧 Installation & Setup
 
----
+Clone the repository
 
-## 🔧 Installation & Setup  
-
-### 1. Clone the repository  
-```bash
 git clone https://github.com/yourusername/AI-powered-smart-supermarket.git
 cd AI-powered-smart-supermarket
-2. Create a virtual environment and activate it
-bash
-Copy code
+
+
+Create a virtual environment and activate it
+
 python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-3. Install dependencies
-bash
-Copy code
+# macOS/Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+
+Install dependencies
+
 pip install -r requirements.txt
-4. Configure environment variables
+
+
+Configure environment variables
+
 Create a .env file in the project root:
 
-ini
-Copy code
 FIREBASE_CREDENTIALS=path/to/firebase/credentials.json
 TWILIO_ACCOUNT_SID=your_twilio_sid
 TWILIO_AUTH_TOKEN=your_twilio_token
 TWILIO_PHONE_NUMBER=your_twilio_whatsapp_number
 GROQ_API_KEY=your_groq_api_key
-5. Run the system
-Register a new customer:
 
-bash
-Copy code
-python registration_gui.py
-Start face recognition:
+🚀 Running the System
 
-bash
-Copy code
+Register a new customer
+
+python face_recognition_module/registration_gui.py
+
+
+Start face recognition
+
 python face_recognition_module/recognition.py
-Run the admin dashboard:
 
-bash
-Copy code
+
+Run the admin dashboard
+
 python admin_dashboard/app.py
+
 📸 Demo
-(Insert screenshots, GIFs, or videos here showing registration, recognition, and dashboard)
+
+(Add screenshots, GIFs, or videos showing registration, recognition, and the dashboard here)
 
 📌 Future Work
-Mobile app integration.
 
-Advanced recommendation engine.
+Mobile app integration
 
-Multi-camera support.
+Advanced recommendation engine
 
-Enhanced analytics dashboard.
+Multi-camera support
+
+Enhanced analytics dashboard
 
 👨‍💻 Author
+
 Tony Makhoul – Computer Engineering Student, Lebanese International University
 
 📧 tmakhoul2002@gmail.com
+
 🔗 LinkedIn
+
+🔗 GitHub
 🔗 GitHub
